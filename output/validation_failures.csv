@@ -1,1 +1,633 @@
-
+rule_id,severity,dataset,column,message
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 34.39 but found 30.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.58 but found 1353.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 31.47 but found 2307.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 31.36 but found 3097.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.61 but found 3466.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 53.45 but found -5715.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 63.12 but found -10277.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 49.39 but found -5447.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 55.98 but found -9859.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 50.12 but found -2510.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 44.47 but found 3170.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 34.16 but found 13857.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 34.69 but found 11952.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 36.94 but found 9061.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.49 but found 1367.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.25 but found 1986.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.60 but found 2867.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.28 but found 3935.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 29.50 but found 6310.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 34.73 but found 7608.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 40.64 but found 6314.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.55 but found 9906.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.65 but found 16018.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 29.29 but found 19987.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.42 but found 21417.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.05 but found 1006.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 29.78 but found 809.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 29.98 but found 902.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 55.44 but found -11700.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 43.28 but found -4372.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 56.65 but found -9197.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 48.79 but found -5414.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 51.44 but found -11728.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 51.23 but found -6957.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 51.12 but found -2948.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 40.45 but found 6329.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.49 but found 4102.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.42 but found 3526.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 21.18 but found 655.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 24.35 but found -672.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 23.51 but found -621.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 40.38 but found -8008.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.85 but found -5775.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 61.87 but found -13350.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 56.73 but found -11590.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 53.88 but found -12867.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 61.83 but found -18367.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 58.39 but found -13657.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 49.80 but found -9877.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 41.75 but found -7745.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 40.23 but found -8985.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 26.77 but found 472.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.42 but found 578.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.56 but found 696.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.04 but found 899.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.16 but found 1143.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 26.10 but found 1451.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 22.96 but found 1888.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 27.79 but found 1699.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.40 but found 2094.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.83 but found 2924.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.10 but found 3515.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.10 but found 4548.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 28.67 but found 5175.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 73.26 but found 2214.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 78.90 but found 2147.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 80.94 but found 2163.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 82.02 but found 2480.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 82.66 but found 2496.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 81.35 but found 2826.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 81.07 but found 3097.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 81.29 but found 3206.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 77.80 but found 4252.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 79.08 but found 4553.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 77.91 but found 5027.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 75.59 but found 6291.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 74.40 but found 6906.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 73.52 but found 18087.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 74.84 but found 17766.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 76.60 but found 17343.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 75.96 but found 18714.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 84.07 but found 12448.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 89.10 but found 9288.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 74.89 but found 25007.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 77.54 but found 21581.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 79.31 but found 18628.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 77.47 but found 24721.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 68.01 but found 44232.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.29 but found 47971.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.78 but found 46610.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 35.22 but found 3534.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 31.74 but found 5602.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 31.90 but found 7214.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 31.75 but found 9037.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.56 but found 11374.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 34.63 but found 13374.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 33.15 but found 16592.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.20 but found 14593.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 40.81 but found 16848.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 41.61 but found 20795.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 36.92 but found 29932.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 61.41 but found -44685.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 62.61 but found -57587.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.27 but found 525.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.48 but found 605.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.79 but found 874.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 94.74 but found 953.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.83 but found 972.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.67 but found 1074.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.87 but found 1215.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.12 but found 1141.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 98.27 but found 1235.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 98.84 but found 778.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 99.89 but found 80.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 99.48 but found 531.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 99.28 but found 725.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 85.94 but found 3553.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.22 but found 3520.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 84.45 but found 4424.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 83.97 but found 4585.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 83.57 but found 5334.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 85.21 but found 5025.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.09 but found 4070.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.90 but found 4058.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.98 but found 3256.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.00 but found 4099.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.15 but found 5235.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.13 but found 5561.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 90.40 but found 7699.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 90.85 but found 8024.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 91.52 but found 8844.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 92.12 but found 7778.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.71 but found 12317.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.11 but found 13695.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.12 but found 15511.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.89 but found 14306.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.70 but found 17559.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 85.47 but found 28347.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 89.85 but found 22666.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.95 but found 23872.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.53 but found 27931.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 84.37 but found 4220.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 83.72 but found 4759.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 83.07 but found 5412.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 81.64 but found 5910.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 80.92 but found 6328.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 78.90 but found 7499.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 77.41 but found 8880.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 75.21 but found 9861.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 75.28 but found 11626.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 75.49 but found 12857.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 76.65 but found 14147.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 76.32 but found 14659.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 76.45 but found 14759.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 70.59 but found -15085.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.40 but found -13084.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 70.53 but found -16120.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.12 but found -26955.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 104.76 but found -37737.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 117.12 but found -44906.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 116.38 but found -50971.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 100.62 but found -45190.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 102.41 but found -44805.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 84.69 but found -26558.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 72.57 but found -17341.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 62.41 but found -14152.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 69.63 but found -31575.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 104.46 but found -178.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 105.19 but found -225.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 105.24 but found -221.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.34 but found 764.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.78 but found 919.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 103.79 but found -262.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 85.05 but found 1669.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 84.61 but found 1772.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 82.97 but found 2072.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 93.66 but found 1016.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 92.93 but found 1264.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 87.42 but found 2577.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 85.57 but found 3363.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.28 but found 745.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 93.13 but found 1504.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 95.20 but found 1655.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 91.17 but found 1842.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 95.22 but found 1806.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 95.44 but found 1771.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 98.70 but found 541.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 101.52 but found -319.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 100.47 but found -390.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 103.40 but found -2163.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 103.48 but found -1757.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 102.03 but found -1829.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 99.59 but found 321.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 27.88 but found 286.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 30.95 but found 335.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 32.33 but found 288.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 35.28 but found 329.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 39.46 but found 379.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 37.93 but found 942.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 41.70 but found -437.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 43.81 but found -553.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 55.16 but found -2469.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 51.39 but found -839.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 42.69 but found 2067.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 38.55 but found 2978.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 41.03 but found 1323.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.67 but found 88.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 60.92 but found -1789.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 58.84 but found -1379.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 72.96 but found -3366.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 56.57 but found -2263.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.44 but found -3965.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.87 but found -4141.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 66.23 but found -5114.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 67.45 but found -5005.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 90.83 but found -9958.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 90.98 but found -8512.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 79.44 but found -5746.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 83.67 but found -13382.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 79.42 but found -14146.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 26.84 but found 28.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 90.71 but found 855.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 96.11 but found 433.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.33 but found 1904.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 80.40 but found 3164.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.06 but found 2219.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 86.84 but found 3030.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 100.53 but found -151.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.62 but found 4069.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 99.98 but found 2.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 97.85 but found 558.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 88.02 but found 6521.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 76.30 but found 16331.00
+DQ-05,WARNING,profitandloss,opm_percentage,Expected 79.20 but found 15908.00
+DQ-06,WARNING,profitandloss,sales,Sales is 0
+DQ-09,WARNING,cashflow,net_cash_flow,Expected -128.0 but found 532.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -64.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -75.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -35.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -19.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -79.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -47.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -1.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -40.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -2.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 65.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 67.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -19.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -9.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 77.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 62.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -28.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -39.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 64.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -25.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -16.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -13.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -36.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -16.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -7.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -12.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -1.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -61.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 75.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -74.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 64.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -6.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -22.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -17.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -13.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -14.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 75.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 70.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -80.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -30.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 68.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 80.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 76.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 66.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -44.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -8.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -5.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 95.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -2.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -17.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -2.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -25.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -31.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -37.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -35.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -10.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -66.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -6.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -8.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -14.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 92.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 72.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 78.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -12.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage 69.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -99.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -10.0
+DQ-11,WARNING,profitandloss,tax_percentage,Invalid tax percentage -2.0
+DQ-12,WARNING,profitandloss,dividend_payout,Dividend payout 244.0
+DQ-12,WARNING,profitandloss,dividend_payout,Dividend payout 204.0
+DQ-12,WARNING,profitandloss,dividend_payout,Dividend payout 205.0
+DQ-12,WARNING,profitandloss,dividend_payout,Dividend payout 859.0
+DQ-12,WARNING,profitandloss,dividend_payout,Dividend payout 210.0
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/xml-data/corpfiling/AttachHis/24a0940c-fa5a-4e36-a404-9dab3637ea0c.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/xml-data/corpfiling/AttachHis//ae413f27-7b30-4cdb-8f1b-8d82e5914e54.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/xml-data/corpfiling/AttachHis//b9e0c871-3353-4ef4-855e-069bcfd848e1.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/bseplus/AnnualReport/500247/73932500247.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/bseplus/AnnualReport/500247/69160500247.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/bseplus/AnnualReport/500247/5002470317.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: 5002470316.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: 5002470315.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: untitled
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: bseindia.com/bseplus/AnnualReport/500247/5002470312.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: 5002470311.pdf
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-13,WARNING,documents,Annual_Report,Invalid URL format: Null
+DQ-14,WARNING,profitandloss,eps,Net profit=85 EPS=0.0
+DQ-14,WARNING,profitandloss,eps,Net profit=123 EPS=0.0
+DQ-14,WARNING,profitandloss,eps,Net profit=12 EPS=-1.0
+DQ-16,WARNING,financials,company_id,SBIN has 0 years of history
+DQ-16,WARNING,financials,company_id,JIOFIN has 2 years of history

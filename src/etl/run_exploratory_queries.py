@@ -3,8 +3,7 @@ from pathlib import Path
 
 
 DB_PATH = Path("data/nifty100.db")
-SQL_PATH = Path("src/etl/exploratory_queries.sql")
-
+SQL_PATH = Path("notebooks/exploratory_queries.sql")
 
 def main() -> None:
 

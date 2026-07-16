@@ -1,12 +1,17 @@
-# Virtual environment and Python cache
+# Environment
 .venv/
+.env
+
+# Python cache
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Temporary/helper ETL scripts
 src/etl/fix_supporting_headers.py
 src/etl/missing_companies.py
-src/etl/loader.py
+src/etl/restore_companies.py
+src/etl/inspect_dq02.py
 
 # Test configuration
 pytest.ini

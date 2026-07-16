@@ -40,10 +40,22 @@ class DataValidator:
 
     def generate_report(self):
         """
-        Return validation report.
+        Return validation report with consistent columns,
+        even when no failures are found.
         """
 
-        return pd.DataFrame(self.failures)
+        columns = [
+            "rule_id",
+            "severity",
+            "dataset",
+            "column",
+            "message",
+        ]
+
+        return pd.DataFrame(
+            self.failures,
+            columns=columns,
+        )
 
     def save_report(self, filename="validation_failures.csv"):
 
@@ -84,23 +96,23 @@ class DataValidator:
     # Annual PK Uniqueness
     # ==========================================================
 
-    def dq02_annual_pk(
-        self,
-        dataframe,
-        dataset_name
-    ):
+    def dq02_annual_pk(self,dataframe,dataset_name):
 
-        duplicates = dataframe[
-            dataframe.duplicated(
-                subset=[
-                    "company_id",
-                    "year"
-                ],
-                keep=False
+        duplicate_groups = (
+            dataframe
+            .groupby(
+                ["company_id", "year"],
+                dropna=False
             )
+            .size()
+            .reset_index(name="row_count")
+        )
+
+        duplicate_groups = duplicate_groups[
+            duplicate_groups["row_count"] > 1
         ]
 
-        for _, row in duplicates.iterrows():
+        for _, row in duplicate_groups.iterrows():
 
             self.log_failure(
                 rule_id="DQ-02",
@@ -109,7 +121,8 @@ class DataValidator:
                 column="company_id, year",
                 message=(
                     f"Duplicate key "
-                    f"({row['company_id']}, {row['year']})"
+                    f"({row['company_id']}, {row['year']}) "
+                    f"appears {row['row_count']} times"
                 )
             )
 
@@ -154,6 +167,12 @@ class DataValidator:
 
         for idx, value in dataframe["year"].items():
 
+            value_text = str(value).strip().upper()
+
+            # TTM is a valid non-annual reporting period
+            if value_text == "TTM":
+                continue
+
             try:
 
                 year = normalize_year(value)
@@ -167,7 +186,6 @@ class DataValidator:
                         column="year",
                         message=f"Invalid year '{value}'"
                     )
-
             except Exception:
 
                 self.log_failure(
@@ -634,7 +652,7 @@ class DataValidator:
             profitandloss,
             "profitandloss"
         )
-        print("DQ07 DOC")
+        print("DQ08 BS")
         self.dq08_ticker_format(
             balancesheet,
             "balancesheet"
@@ -717,3 +735,188 @@ class DataValidator:
         )
 
         return self.generate_report()
+# ==========================================================
+# Standalone Validator Runner
+# ==========================================================
+
+RAW_PATH = Path("data/raw")
+OUTPUT_PATH = Path("output")
+
+
+def load_validation_datasets():
+    """
+    Load the seven core Excel datasets without modifying
+    the original company-provided files.
+    """
+
+    dataset_names = [
+        "companies",
+        "analysis",
+        "profitandloss",
+        "balancesheet",
+        "cashflow",
+        "documents",
+        "prosandcons",
+    ]
+
+    datasets = {}
+
+    for dataset_name in dataset_names:
+
+        file_path = RAW_PATH / f"{dataset_name}.xlsx"
+
+        if not file_path.exists():
+            raise FileNotFoundError(
+                f"Required file not found: {file_path}"
+            )
+
+        datasets[dataset_name] = pd.read_excel(file_path)
+
+    return datasets
+
+
+def prepare_validation_scope(datasets):
+    """
+    Normalize tickers and limit child datasets to the approved
+    92-company master universe.
+
+    Out-of-scope source rows are already documented separately
+    by loader.py in output/out_of_scope_rows.csv.
+    """
+
+    companies = datasets["companies"].copy()
+
+    companies["id"] = (
+        companies["id"]
+        .astype(str)
+        .str.strip()
+        .str.upper()
+    )
+
+    valid_company_ids = set(companies["id"])
+
+    ticker_map = {
+        "AGTL": "ATGL",
+    }
+
+    prepared = {
+        "companies": companies,
+    }
+
+    for dataset_name, dataframe in datasets.items():
+
+        if dataset_name == "companies":
+            continue
+
+        df = dataframe.copy()
+
+        if "company_id" in df.columns:
+
+            df["company_id"] = (
+                df["company_id"]
+                .astype(str)
+                .str.strip()
+                .str.upper()
+                .replace(ticker_map)
+            )
+
+            df = df[
+                df["company_id"].isin(valid_company_ids)
+            ].copy()
+        
+                # Remove exact duplicate source rows, ignoring the row ID.
+        if dataset_name in {
+            "profitandloss",
+            "balancesheet",
+            "cashflow",
+        }:
+
+            comparison_columns = [
+                column
+                for column in df.columns
+                if column != "id"
+            ]
+
+            df = df.drop_duplicates(
+                subset=comparison_columns,
+                keep="first",
+            ).copy()
+
+        # Remove the known mislabeled ABB cash-flow block.
+        if dataset_name == "cashflow":
+
+            source_error_mask = (
+                df["company_id"].eq("ABB")
+                & df["id"].between(73, 83)
+            )
+
+            df = df[
+                ~source_error_mask
+            ].copy()
+
+        prepared[dataset_name] = df
+
+    return prepared
+
+
+def main():
+
+    print("=" * 70)
+    print("SPRINT 1 — DATA QUALITY VALIDATION")
+    print("=" * 70)
+
+    datasets = load_validation_datasets()
+
+    datasets = prepare_validation_scope(datasets)
+
+    validator = DataValidator()
+
+    report = validator.validate_all(datasets)
+
+    OUTPUT_PATH.mkdir(exist_ok=True)
+
+    report_path = OUTPUT_PATH / "validation_failures.csv"
+
+    report.to_csv(
+        report_path,
+        index=False,
+    )
+
+    print("\n" + "=" * 70)
+    print("VALIDATION SUMMARY")
+    print("=" * 70)
+
+    print(f"Total failures: {len(report)}")
+
+    if report.empty:
+
+        print("No validation failures found.")
+
+    else:
+
+        summary = (
+            report.groupby(
+                ["rule_id", "severity"]
+            )
+            .size()
+            .reset_index(name="failure_count")
+        )
+
+        print(summary.to_string(index=False))
+
+        critical_count = len(
+            report[
+                report["severity"]
+                .astype(str)
+                .str.upper()
+                .eq("CRITICAL")
+            ]
+        )
+
+        print(f"\nCRITICAL failures: {critical_count}")
+
+    print(f"\nSaved: {report_path}")
+
+
+if __name__ == "__main__":
+    main()
