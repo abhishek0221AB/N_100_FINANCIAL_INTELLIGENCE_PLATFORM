@@ -1,0 +1,36 @@
+company_id,table_name,row_count,unique_years,first_year,last_year,null_values,status,non_annual_periods
+SUNPHARMA,profitandloss,13,12,2013.0,2024.0,2,PASS,1
+SUNPHARMA,balancesheet,13,12,2013.0,2024.0,0,PASS,1
+SUNPHARMA,cashflow,12,12,2013.0,2024.0,0,PASS,0
+SUNPHARMA,documents,16,16,2009.0,2024.0,3,PASS,0
+SUNPHARMA,financial_ratios,12,12,2013.0,2024.0,0,PASS,0
+SUNPHARMA,market_cap,6,6,2019.0,2024.0,0,PASS,0
+SUNPHARMA,stock_prices,60,5,2020.0,2024.0,0,PASS,0
+BAJFINANCE,profitandloss,11,10,2015.0,2024.0,2,PASS,1
+BAJFINANCE,balancesheet,11,10,2015.0,2024.0,0,PASS,1
+BAJFINANCE,cashflow,10,10,2015.0,2024.0,0,PASS,0
+BAJFINANCE,documents,16,16,2009.0,2024.0,0,PASS,0
+BAJFINANCE,financial_ratios,10,10,2015.0,2024.0,0,PASS,0
+BAJFINANCE,market_cap,6,6,2019.0,2024.0,0,PASS,0
+BAJFINANCE,stock_prices,60,5,2020.0,2024.0,0,PASS,0
+ADANIGREEN,profitandloss,9,8,2017.0,2024.0,1,PASS,1
+ADANIGREEN,balancesheet,9,8,2017.0,2024.0,0,PASS,1
+ADANIGREEN,cashflow,8,8,2017.0,2024.0,0,PASS,0
+ADANIGREEN,documents,16,16,2009.0,2024.0,0,PASS,0
+ADANIGREEN,financial_ratios,8,8,2017.0,2024.0,0,PASS,0
+ADANIGREEN,market_cap,6,6,2019.0,2024.0,0,PASS,0
+ADANIGREEN,stock_prices,60,5,2020.0,2024.0,0,PASS,0
+UNITDSPR,profitandloss,13,12,2013.0,2024.0,2,PASS,1
+UNITDSPR,balancesheet,13,12,2013.0,2024.0,0,PASS,1
+UNITDSPR,cashflow,12,12,2013.0,2024.0,0,PASS,0
+UNITDSPR,documents,16,16,2009.0,2024.0,0,PASS,0
+UNITDSPR,financial_ratios,0,0,,,0,NO DATA,0
+UNITDSPR,market_cap,0,0,,,0,NO DATA,0
+UNITDSPR,stock_prices,0,0,,,0,NO DATA,0
+HAL,profitandloss,13,12,2013.0,2024.0,2,PASS,1
+HAL,balancesheet,10,9,2016.0,2024.0,0,PASS,1
+HAL,cashflow,8,8,2017.0,2024.0,0,PASS,0
+HAL,documents,17,16,2009.0,2024.0,1,PASS,0
+HAL,financial_ratios,8,8,2017.0,2024.0,0,PASS,0
+HAL,market_cap,6,6,2019.0,2024.0,0,PASS,0
+HAL,stock_prices,60,5,2020.0,2024.0,0,PASS,0

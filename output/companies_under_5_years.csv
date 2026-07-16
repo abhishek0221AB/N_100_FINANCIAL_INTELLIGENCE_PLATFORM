@@ -1,0 +1,6 @@
+company_id,table_name,unique_years,first_year,last_year,issue
+JIOFIN,profitandloss,2,2023.0,2024.0,Coverage below 5 years
+JIOFIN,balancesheet,2,2023.0,2024.0,Coverage below 5 years
+JIOFIN,cashflow,2,2023.0,2024.0,Coverage below 5 years
+SBIN,balancesheet,0,,,Coverage below 5 years
+VBL,balancesheet,0,,,Coverage below 5 years

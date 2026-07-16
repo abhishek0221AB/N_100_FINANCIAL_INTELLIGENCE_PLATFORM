@@ -1,0 +1,14 @@
+pandas>=2.2
+numpy>=1.26
+openpyxl>=3.1
+matplotlib>=3.8
+plotly>=6.0
+streamlit>=1.40
+SQLAlchemy>=2.0
+pytest>=8.0
+python-dotenv>=1.0
+scikit-learn>=1.5
+scipy>=1.13
+reportlab>=4.2
+nltk>=3.9
+requests>=2.32
