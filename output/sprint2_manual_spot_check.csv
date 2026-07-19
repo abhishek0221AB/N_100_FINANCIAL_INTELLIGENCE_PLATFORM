@@ -1,0 +1,4 @@
+company_id,fiscal_year,manual_roe_pct,database_roe_pct,roe_difference_pct_points,manual_revenue_cagr_5yr,database_revenue_cagr_5yr,cagr_difference_pct_points,manual_cagr_flag,roe_pass,cagr_pass
+TCS,2024,50.944313673485176,50.944313673485176,0.0,10.463614801716602,10.463614801716602,0.0,VALID,True,True
+RELIANCE,2024,9.958650553699458,9.958650553699458,0.0,9.606097094616972,9.606097094616972,0.0,VALID,True,True
+HDFCBANK,2024,14.33974005030719,14.33974005030719,0.0,21.95098428169122,21.95098428169122,0.0,VALID,True,True

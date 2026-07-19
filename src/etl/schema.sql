@@ -206,22 +206,58 @@ CREATE TABLE financial_ratios (
     id INTEGER PRIMARY KEY,
     company_id TEXT NOT NULL,
     year TEXT NOT NULL,
+
+    fiscal_year INTEGER,
+
     net_profit_margin_pct REAL,
     operating_profit_margin_pct REAL,
+    opm_mismatch_flag INTEGER,
+
     return_on_equity_pct REAL,
+    return_on_capital_employed_pct REAL,
+    return_on_assets_pct REAL,
+
     debt_to_equity REAL,
+    high_leverage_flag INTEGER,
+
     interest_coverage REAL,
+    icr_label TEXT,
+    icr_warning_flag INTEGER,
+
+    net_debt_cr REAL,
     asset_turnover REAL,
+
     free_cash_flow_cr REAL,
     capex_cr REAL,
+    capex_intensity_pct REAL,
+    fcf_conversion_rate_pct REAL,
+
+    cash_from_operations_cr REAL,
+    cfo_pat_ratio REAL,
+    cfo_quality_label TEXT,
+
     earnings_per_share REAL,
     book_value_per_share REAL,
     dividend_payout_ratio_pct REAL,
     total_debt_cr REAL,
-    cash_from_operations_cr REAL,
+
+    revenue_cagr_5yr REAL,
+    revenue_cagr_5yr_flag TEXT,
+
+    pat_cagr_5yr REAL,
+    pat_cagr_5yr_flag TEXT,
+
+    eps_cagr_5yr REAL,
+    eps_cagr_5yr_flag TEXT,
+
+    composite_quality_score REAL,
+
+    broad_sector TEXT,
 
     FOREIGN KEY (company_id)
-        REFERENCES companies(id)
+        REFERENCES companies(id),
+
+    UNIQUE (company_id, year)
 );
 
 CREATE TABLE peer_groups (

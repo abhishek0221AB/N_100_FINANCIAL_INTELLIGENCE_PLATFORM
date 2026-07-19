@@ -314,11 +314,10 @@ def load_core_tables(conn):
 def load_supporting_tables(conn):
 
     supporting_tables = [
-        "financial_ratios",
-        "market_cap",
-        "peer_groups",
-        "sectors",
-        "stock_prices"
+    "market_cap",
+    "peer_groups",
+    "sectors",
+    "stock_prices",
     ]
 
     for table in supporting_tables:

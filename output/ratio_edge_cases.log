@@ -1,0 +1,471 @@
+NIFTY 100 FINANCIAL INTELLIGENCE PLATFORM
+SPRINT 2 - RATIO EDGE-CASE REVIEW
+========================================================================
+
+FINANCIAL-SECTOR LEVERAGE CARVE-OUT
+------------------------------------------------------------------------
+Financials-sector companies reviewed: 23
+Financial companies incorrectly flagged for high leverage: 0
+Status: PASSED - standard D/E warning is suppressed for all Financials-sector companies.
+
+ROE AND ROCE ANOMALIES
+------------------------------------------------------------------------
+Threshold: absolute difference greater than 5.0 percentage points
+Total anomalies: 45
+DATA_SOURCE_ISSUE: 9
+VERSION_DIFFERENCE: 0
+FORMULA_DISCREPANCY: 36
+
+[1] ADANIENT - Adani Enterprises Ltd
+Ratio: ROE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 8.5347
+Source value: 13.6400
+Absolute difference: 5.1053
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[2] ADANIGREEN - Adani Green Energy Ltd
+Ratio: ROCE
+Sector: Energy
+Fiscal year: 2024
+Computed value: 8.9394
+Source value: 96.5000
+Absolute difference: 87.5606
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[3] ADANIPOWER - Adani Power Ltd
+Ratio: ROE
+Sector: Energy
+Fiscal year: 2024
+Computed value: 48.2767
+Source value: 57.1000
+Absolute difference: 8.8233
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[4] ASIANPAINT - Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company
+Ratio: ROCE
+Sector: Materials
+Fiscal year: 2024
+Computed value: 35.6240
+Source value: 41.7500
+Absolute difference: 6.1260
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[5] BAJAJFINSV - Bajaj Finserv Ltd
+Ratio: ROE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 25.8504
+Source value: 11.7200
+Absolute difference: 14.1304
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[6] BAJAJFINSV - Bajaj Finserv Ltd
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 11.4476
+Source value: 21.1400
+Absolute difference: 9.6924
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[7] BAJFINANCE - Bajaj Finance Ltd
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 5.2199
+Source value: 11.9000
+Absolute difference: 6.6801
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[8] BEL - Bharat Electronics Ltd
+Ratio: ROE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 4744.0476
+Source value: 26.3000
+Absolute difference: 4717.7476
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[9] BEL - Bharat Electronics Ltd
+Ratio: ROCE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 4155.9055
+Source value: 34.6000
+Absolute difference: 4121.3055
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[10] BEL - Bharat Electronics Ltd
+Ratio: ROE_EXTREME_VALUE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 4744.0476
+Source value: 26.3000
+Absolute difference: 4717.7476
+Category: DATA_SOURCE_ISSUE
+Explanation: Computed ROE exceeds 200%. P&L net profit and balance-sheet equity appear to use incompatible units or scales. Raw values were retained and no unverified scaling correction was applied.
+------------------------------------------------------------------------
+[11] BOSCHLTD - Bosch Ltd
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 26.7041
+Source value: 20.6000
+Absolute difference: 6.1041
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[12] BPCL - Bharat Petroleum Corporation Ltd
+Ratio: ROE
+Sector: Energy
+Fiscal year: 2024
+Computed value: 35.5113
+Source value: 41.9000
+Absolute difference: 6.3887
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[13] CHOLAFIN - Cholamandalam Investment & Finance Company Ltd
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 3.1545
+Source value: 10.4000
+Absolute difference: 7.2455
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[14] COALINDIA - Coal India Ltd
+Ratio: ROE
+Sector: Materials
+Fiscal year: 2024
+Computed value: 45.1698
+Source value: 52.0000
+Absolute difference: 6.8302
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[15] GODREJCP - Godrej Consumer Products Ltd
+Ratio: ROE
+Sector: Consumer Staples
+Fiscal year: 2024
+Computed value: -4.4531
+Source value: 6.7700
+Absolute difference: 11.2231
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[16] GODREJCP - Godrej Consumer Products Ltd
+Ratio: ROCE
+Sector: Consumer Staples
+Fiscal year: 2024
+Computed value: 3.2111
+Source value: 26.4900
+Absolute difference: 23.2789
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[17] HAL - Hindustan Aeronautics Ltd
+Ratio: ROE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 3816.5829
+Source value: 28.9000
+Absolute difference: 3787.6829
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[18] HAL - Hindustan Aeronautics Ltd
+Ratio: ROCE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 3180.7453
+Source value: 38.9000
+Absolute difference: 3141.8453
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[19] HAL - Hindustan Aeronautics Ltd
+Ratio: ROE_EXTREME_VALUE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 3816.5829
+Source value: 28.9000
+Absolute difference: 3787.6829
+Category: DATA_SOURCE_ISSUE
+Explanation: Computed ROE exceeds 200%. P&L net profit and balance-sheet equity appear to use incompatible units or scales. Raw values were retained and no unverified scaling correction was applied.
+------------------------------------------------------------------------
+[20] ICICIPRULI - ICICI Prudential Life Insurance Company Ltd
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 32.7571
+Source value: 8.7500
+Absolute difference: 24.0071
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[21] INDIGO - Interglobe Aviation Ltd
+Ratio: ROE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 892.5683
+Source value: None
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Source ratio is missing or non-numeric.
+------------------------------------------------------------------------
+[22] INDIGO - Interglobe Aviation Ltd
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 1112.5536
+Source value: 24.5000
+Absolute difference: 1088.0536
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[23] INDIGO - Interglobe Aviation Ltd
+Ratio: ROE_EXTREME_VALUE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 892.5683
+Source value: None
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Computed ROE exceeds 200%. P&L net profit and balance-sheet equity appear to use incompatible units or scales. Raw values were retained and no unverified scaling correction was applied.
+------------------------------------------------------------------------
+[24] IRCTC - Indian Railway Catering & Tourism Corporation Ltd
+Ratio: ROE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 34.3963
+Source value: 40.4000
+Absolute difference: 6.0037
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[25] IRCTC - Indian Railway Catering & Tourism Corporation Ltd
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 46.0486
+Source value: 53.8000
+Absolute difference: 7.7514
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[26] LICI - Life Insurance Corporation of India
+Ratio: ROE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 49.4471
+Source value: 63.6100
+Absolute difference: 14.1629
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[27] LICI - Life Insurance Corporation of India
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 56.9712
+Source value: 63.7900
+Absolute difference: 6.8188
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[28] LT - Larsen & Toubro Ltd
+Ratio: ROE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 77.6651
+Source value: 10.4900
+Absolute difference: 67.1751
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[29] LT - Larsen & Toubro Ltd
+Ratio: ROCE
+Sector: Industrials
+Fiscal year: 2024
+Computed value: 135.9455
+Source value: 17.1800
+Absolute difference: 118.7655
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[30] LTIM - LTIMindtree Ltd
+Ratio: ROCE
+Sector: Information Technology
+Fiscal year: 2024
+Computed value: 28.3897
+Source value: 34.1000
+Absolute difference: 5.7103
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[31] M&M - Mahindra & Mahindra Ltd
+
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 13.4216
+Source value: 26.9800
+Absolute difference: 13.5584
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[32] NESTLEIND - Nestle India Ltd
+Ratio: ROE
+Sector: Consumer Staples
+Fiscal year: 2024
+Computed value: 117.7545
+Source value: 135.6100
+Absolute difference: 17.8555
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[33] NESTLEIND - Nestle India Ltd
+Ratio: ROCE
+Sector: Consumer Staples
+Fiscal year: 2024
+Computed value: 147.4627
+Source value: 185.4300
+Absolute difference: 37.9673
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[34] PFC - Power Finance Corporation Ltd
+Ratio: ROE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 26.1609
+Source value: 19.4900
+Absolute difference: 6.6709
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[35] PNB - Punjab National Bank
+Ratio: ROE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 61.3206
+Source value: 8.7000
+Absolute difference: 52.6206
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[36] PNB - Punjab National Bank
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: 118.2187
+Source value: 1.6300
+Absolute difference: 116.5887
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[37] SBIN - State Bank of India
+Ratio: ROE
+Sector: Financials
+Fiscal year: 2024
+Computed value: None
+Source value: 17.3000
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Computed ratio is unavailable because the formula denominator is zero, negative, or source statement data is missing.
+------------------------------------------------------------------------
+[38] SBIN - State Bank of India
+Ratio: ROCE
+Sector: Financials
+Fiscal year: 2024
+Computed value: None
+Source value: 6.1600
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Computed ratio is unavailable because the formula denominator is zero, negative, or source statement data is missing.
+------------------------------------------------------------------------
+[39] TATAMOTORS - Tata Motors Ltd
+Ratio: ROE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 37.4561
+Source value: 49.4000
+Absolute difference: 11.9439
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[40] TATASTEEL - Tata Steel Ltd
+
+Ratio: ROE
+Sector: Materials
+Fiscal year: 2024
+Computed value: -5.3349
+Source value: 6.5500
+Absolute difference: 11.8849
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[41] TCS - Tata Consultancy Services Ltd
+Ratio: ROE
+Sector: Information Technology
+Fiscal year: 2024
+Computed value: 50.9443
+Source value: 0.5200
+Absolute difference: 50.4243
+Category: DATA_SOURCE_ISSUE
+Explanation: Source value appears to use a different scale or contains an anomalous percentage value.
+------------------------------------------------------------------------
+[42] TRENT - Trent Ltd
+Ratio: ROE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 36.3078
+Source value: 27.2000
+Absolute difference: 9.1078
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[43] TRENT - Trent Ltd
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 39.3231
+Source value: 23.8000
+Absolute difference: 15.5231
+Category: FORMULA_DISCREPANCY
+Explanation: Source and computed values use different formula definitions, statement versions, or averaging conventions.
+------------------------------------------------------------------------
+[44] TVSMOTOR - TVS Motor Company Ltd
+Ratio: ROE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 26.2235
+Source value: None
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Source ratio is missing or non-numeric.
+------------------------------------------------------------------------
+[45] TVSMOTOR - TVS Motor Company Ltd
+Ratio: ROCE
+Sector: Consumer Discretionary
+Fiscal year: 2024
+Computed value: 14.1232
+Source value: None
+Absolute difference: Not available
+Category: DATA_SOURCE_ISSUE
+Explanation: Source ratio is missing or non-numeric.
+------------------------------------------------------------------------
